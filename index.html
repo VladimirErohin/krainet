@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>krainet</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/normalize.css">
@@ -36,10 +37,12 @@
             </div>
         </div>
 
-        <div class="section-name">
-            <div class="section-name__circle"></div>
-            <div class="section-name__title">Меня зовут Александр Смит</div>
-        </div>
+<div class="container__about-me">
+    <div class="section-name">
+        <div class="section-name__circle"></div>
+        <div class="section-name__title">Меня зовут Александр Смит</div>
+    </div>
+</div>
         <div class="about-me">
             <h1>Я web-разработчик</br> из города Москва</h1>
         </div>
@@ -193,53 +196,53 @@
     </main>
 
     <footer>
-        <div class="container">
-            <div class="contacts">
-                <div class="contacts__photo">
-                    <img class="photo" src="./assets/Photo.png" alt="photo">
-                </div>
-                <div class="contacts__items">
-                    <div class="contacts__header">
-                        <div class="contacts-header__name">
-                            <div class="section-name__circle"></div>
-                            <div class="contacts-name__title">Контыкты</div>
-                        </div>
-                        <div class="description">Свяжитесь со мной</div>
-                        <div class="contacts-bottom-line"></div>
-                        <div class="description__name">
-                            Любым удобным для вас способом:
-                        </div>
-                        <div class="contacts__social">
-                            <img class="contact-social" src="./assets/Facebook-contact.svg" alt="facebook">
-                            <img class="contact-social" src="./assets/Telegram.svg" alt="telegram">
-                            <img class="contact-social" src="./assets/Instagram.svg" alt="instagram">
-                        </div>
-                        <div class="description__name">
-                            Или оставьте ваши данные и я сама вам напишу:
-                        </div>
+        <div class="contacts">
+            <div class="contacts__photo">
+                <img class="photo" src="./assets/Photo.png" alt="photo">
+            </div>
+            <div class="contacts__items">
+                <div class="contacts__header">
+                    <div class="contacts-header__name">
+                        <div class="section-name__circle"></div>
+                        <div class="contacts-name__title">Контыкты</div>
+                    </div>
+                    <div class="description__contact">Свяжитесь со мной</div>
+                    <div class="contacts-bottom-line"></div>
+                    <div class="description__contact-name">
+                        Любым удобным для вас способом:
+                    </div>
+                    <div class="contacts__social">
+                        <img class="contact-social" src="./assets/Facebook-contact.svg" alt="facebook">
+                        <img class="contact-social" src="./assets/Telegram.svg" alt="telegram">
+                        <img class="contact-social" src="./assets/Instagram.svg" alt="instagram">
+                    </div>
+                    <div class="description__contact-name">
+                        Или оставьте ваши данные и я сама вам напишу:
+                    </div>
 
-                        <div class="contacts__field">
-                            <div class="field__name">
-                                <label class="label-name" for="name">
-                                    Ваше имя
-                                    <input id="name" type="text">
-                                </label>
-                            </div>
-                            <div class="field__name">
-                                <label class="label-name" for="email">
-                                    Ваша почта
-                                    <input id="email" type="email">
-                                </label>
-                            </div>
+                    <div class="contacts__field">
+                        <div class="field__name">
+                            <label class="label-name" for="name">
+                                Ваше имя
+                                <input id="name" type="text">
+                            </label>
                         </div>
-
-                        <div class="field__textarea">
-                            <label class="label-textarea" for="message">
-                                Ваше сообщение
-                                <textarea id="message" name="message" rows="5" cols="33"></textarea>
+                        <div class="field__name">
+                            <label class="label-name" for="email">
+                                Ваша почта
+                                <input id="email" type="email">
                             </label>
                         </div>
                     </div>
+
+                    <div class="field__textarea">
+                        <label class="label-textarea" for="message">
+                            Ваше сообщение
+                            <textarea id="message" name="message" rows="5" cols="33"></textarea>
+                        </label>
+                    </div>
+                </div>
+                <div class="button-message-contact">
                     <button class="button-message">Отправить сообщение</button>
                 </div>
             </div>
